@@ -2,22 +2,15 @@
 
 ## English: (Scroll down for French)
 
-# Teens Learning Code: App Making with App Inventor
+# Teens Learning Code: VR with A-Frame
 
 ## Quick Links
 
-Lead Instructor Notes: <a href="https://docs.google.com/document/d/1d-YJZwSZ-xVIC5UAB3nCvGsKRwmQLFk-gmKMbcIk73A/edit?usp=sharing">Link to Notes</a>
+Lead Instructor Notes: (in progress)
 
-Preview Slides: <a href="https://ladieslearningcode.github.io/teenslc-appmaking-with-app-inventor/slides-en.html">ladieslearningcode.github.io/teenslc-appmaking-with-app-inventor/slides-en.html</a>
+Preview Slides: <a href="https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html">ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html</a>
 
 <!--Activity List: <a href="http://bit.ly/scratch-activity-list">bit.ly/...</a>-->
-
-## Additional Resources (Optional)
-
-Unplugged Activities: <a href="http://bit.ly/unplugged-activities-doc">bit.ly/unplugged-activities-doc</a>
-
-Youth Facilitator / Lead Instructor Handbook: <a href="http://bit.ly/youth-facilitator-handbook-doc">bit.ly/youth-facilitator-handbook-doc</a>
-
 
 # HOW TO USE:
 ## Before the Workshop
@@ -25,12 +18,11 @@ Youth Facilitator / Lead Instructor Handbook: <a href="http://bit.ly/youth-facil
 
 * Download this folder.
 * Read through the Lead Instructor Notes for context
-* Connect with Chapter Lead about borrowing an Android phone if you don't have access to one already
+* Connect with Chapter Lead about borrowing an Android phone and Google Cardboard if you don't have access to one already
 
 3 Days to Go
 
 <!--* Select one activity from the Activity List-->
-* Ensure that the <a href="https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&hl=en">MIT App Inventor Companion</a> app is installed on the/your Android phone
 * Practice going through the Code-Along
 
 <!--2 Days To Go
@@ -43,7 +35,7 @@ Youth Facilitator / Lead Instructor Handbook: <a href="http://bit.ly/youth-facil
 1 Day to Go
 
 * Print the Notes <!--and Solution Sheet(s) (found in Activity List) to bring to the workshop.-->
-* Pack the phone charger to bring along to the workshop
+* Pack the phone, charger, and Google cardboard to bring along to the workshop
 
 ## During the Workshop
 * Have the Notes accessible throughout the workshop, follow along in the Notes for support.
@@ -51,7 +43,7 @@ Youth Facilitator / Lead Instructor Handbook: <a href="http://bit.ly/youth-facil
 
 ## After the Workshop
 * Give yourself a pat on the back - You did it!
-* (Don't forget to return the phone if you borrowed one)
+* (Don't forget to return any equipment that you borrowed)
 
 
 ATTRIBUTIONS:
@@ -63,4 +55,4 @@ Content by Kassandra Lenters. Slides Created by [Christina Truong](http://twitte
 Email questions & comments to <content@ladieslearningcode.com>.
 
 
-## French:
+## French: (coming)
