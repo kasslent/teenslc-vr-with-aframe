@@ -7,11 +7,11 @@
 
 ## Quick Links
 
-Preview Full-Day Slides: https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html
+Preview Full-Day Slides: <!--https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html-->
 
-Preview 2-hour visit Slides (for Code Mobiles): https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en-2hours.html
+Preview 2-hour visit Slides (for Code Mobiles): https://kasslent.github.io/teenslc-vr-with-aframe/slides-en-2hours.html
 
-Preview Instructor Notes: https://ladieslearningcode.github.io/teenslc-vr-with-aframe/notes-en.html
+Preview Instructor Notes: <!--https://ladieslearningcode.github.io/teenslc-vr-with-aframe/notes-en.html-->
 
 
 ## ATTRIBUTIONS:
