@@ -22,11 +22,30 @@
 
 
   <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/teenslc-logo-stacked-white.png" alt="Teens Learning Code logo">Welcome!</h1>
+
+      <div class="instructions">
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> wifi network</p>
+        <p><strong>Password:</strong> wifi password</p>
+        <!--<hr>
+
+        <h2>Complete this survey before we begin</h2>
+        <p><a href="http://bit.ly/teensurveyclc">http://bit.ly/teensurveyclc</a></p>
+      -->
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Content created by Kassandra Lenters for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.ca" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
     <section class="slide intro">
       <img class="logo" src="framework/img/teenslc-logo-white.png" alt="Canada Learning Code logo">
       <h1 class="heading-bg">
-        <span>Envisioning Canada<br>
-        in VR</span>
+        <span>VR with A-Frame</span>
       </h1>
 
       <ul>
@@ -66,78 +85,10 @@
       </script>
     </section>
 
-    <section class="slide title" data-toc data-markdown>
-     <script type="text/template">
-       # What is Code?
-     </script>
-    </section>
-
-    <section class="slide" data-markdown>
-     <script type= "text/template">
-       #Code is..
-       ## A SET OF INSTRUCTIONS THAT TELLS THE COMPUTER WHAT TO DO.
-
-       <br>
-       ![Running robot gif](framework/img/workshop/runningrobot.gif)
-       ![Dancing robot gif](framework/img/workshop/dancingrobot.gif)
-       ![eating robot gif](framework/img/workshop/eatingrobot.gif)
-       ![Dancing robot gif](framework/img/workshop/dancingrobot2.gif)
-       ![Dancing robot gif](framework/img/workshop/bluerobot.gif)
-       ![Dancing robot gif](framework/img/workshop/partyrobot.gif)
-
-       <p> In code, we call a set of instructions an <strong style="color:#FF584E;">algorithm</strong>.</p><!-- .element: class="delayed" -->
-
-     </script>
-    </section>
-
-    <section class="slide title" data-toc data-markdown>
-      <script type="text/template">
-        # Artist Profile
-        ## Scott Benesiinaabandan
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Artist profile from ImagineNATIVE:
-
-        <strong>Scott Benesiinaabandan</strong> is an Anishinabe intermedia artist that works primarily in photography, video, audio and printmaking. He has completed international residencies at Parramatta Artist Studios in Australia, Context Gallery in Derry, North of Ireland, and University Lethbridge/Royal Institute of Technology iAIR residency, along with international collaborative projects in both the United Kingdom and Ireland. Scott is currently based in Montreal.
-
-      </script>
-    </section>
-<!--
-    <section class="slide" data-toc data-markdown>
-      <script type="text/template">
-        # About 2167
-
-        What does the future of Canada look like? For the 2167 project, five indigenous artists were asked to share their vision of Canada 150 years into the future using immersive media. Scott Benesiinaabandan responded with “Blueberry Pie under the Martian Sky” - a virtual reality experience.
-
-        Description from ImagineNATIVE website: <em>“Bringing to life a prophetic Anishinabe legend about a young boy who travels through a wormhole back to his people’s place of origin, Blueberry Pie Under the Martian Sky also addresses concerns about the revitalization, growth and evolution of the Anishinabe language.”</em>
-
-      </script>
-    </section>
--->
-    <section class="slide centered" data-toc data-markdown>
-      <script type="text/template">
-        # Blueberry Pie under the Martian Sky
-
-        <video width="810" height="465" controls>
-          <source src="framework/video/blueberry-pie.mp4" type="video/mp4">
-        </video>
-
-      </script>
-    </section>
-<!--
-    <section class="slide title" data-toc data-markdown>
-      <script type="text/template">
-        # Reflection
-      </script>
-    </section>
--->
     <section class="slide title" data-markdown>
       <script type="text/template">
         # Today's Project
-        ## We’re going to create our own virtual artwork in A-Frame
+        ## We're learning how to build a <br>virtual world using A-Frame
       </script>
     </section>
 
@@ -146,6 +97,38 @@
         #Example Project
 
         <iframe src="http://troubled-bean.glitch.me/" width="810" height="465"/>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Artist Profile
+
+        ![Scott](framework/img/workshop/scott.png)
+
+        **Scott Benesiinaabandan** is an Anishinabe intermedia artist that works primarily in photography, video, audio and printmaking. He has completed international residencies at Parramatta Artist Studios in Australia, Context Gallery in Derry, North of Ireland, and University Lethbridge/Royal Institute of Technology iAIR residency, along with international collaborative projects in both the United Kingdom and Ireland. Scott is currently based in Montreal.
+
+          *Profile from ImagineNATIVE*
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://cfccreates.com/residents/339">Photo of Scott from the Canadian Film Centre website</a>
+          </div>
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        # Blueberry Pie under the Martian Sky
+
+        <video width="810" height="465" controls>
+          <source src="framework/video/blueberry-pie.mp4" type="video/mp4">
+        </video>
+
+        ## By [Scott Benesiinaabandan](http://www.benesiinaabandan.com/)
 
       </script>
     </section>
@@ -190,6 +173,64 @@
 
     <section class="slide" data-markdown>
       <script type="text/template">
+        # Remix the Starter Project
+
+        1. Open the Starter Project: https://vr-starter-project.glitch.me/
+        1. Select "Remix on Glitch"
+        1. Rename your project (top, left)
+
+        ![Select Remix on Glitch](framework/img/workshop/remix-on-glitch.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Setting Up Glitch
+
+        In order to view changes as you go, select **Show Live** > **Next to the Code**.
+
+        ![Setting up glitch](framework/img/workshop/window-setup.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #What do you see?
+
+        ![example html code](framework/img/workshop/proj-prev.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #CODE! (Specifically HTML)
+
+        * We use browsers to see websites
+        * Browsers don’t understand English - but they do understand HTML!
+
+        **HTML is written with tags.**
+
+        Tags usually come in pairs — an opening tag and a closing tag — to wrap the content. Note the closing tag has a forward slash (`/`).
+
+        ```html
+          <tag> opening tag --- closing tag </tag>
+        ```
+
+        HTML tags describe the content inside of them to the web browser.
+
+        ```html
+          <h1>This tag describes a heading</h1>
+          <p>This tag is for paragraphs.</p>
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
         # Primitives
 
         A-Frame uses HTML elements called **primitives**. These can be customized using HTML attributes (e.g. `color="red"`).
@@ -212,102 +253,6 @@
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        # Getting Started
-
-        We'll be using Glitch to edit and save our A-Frame projects.
-
-        Go to [https://glitch.com](https://glitch.com) and sign in with email. You will need to go to your inbox and click on the "sign in" button to begin.
-
-        ![Sign in with email](framework/img/workshop/glitch-signin-with-email.png)
-        ![Verification email](framework/img/workshop/glitch-verification.png)
-      </script>
-    </section>
-<!--
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Code Along
-
-        1. Open the example project. Go to [https://glitch.com/~aframe](https://glitch.com/~aframe)
-        1. Select "Remix Your Own" <br> ![remix button](framework/img/workshop/aframe-remix.png)
-        1. Click "Show Live" to preview the project <br> ![show button](framework/img/workshop/show-live.png)
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Edit the Code
-
-        1. Go back to the project tab
-        1. Open index.html. <br> ![example html code](framework/img/workshop/see-index.png)
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Challenge
-
-        Try out a few of the following:
-
-        * Change the colour of the sphere
-        * Change the rotation of the box
-        * Change the position of the cylinder
-      </script>
-    </section>
-
-    <section class="slide title" data-markdown>
-      <script type="text/template">
-        # Main Activity
-      </script>
-    </section>
--->
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Step 1: Remix the Starter Project
-
-        1. Open the Starter Project: [glitch.com/~vr-starter-project](http://glitch.com/~vr-starter-project)
-        1. Select "Remix your own"
-        1. Rename your project (top, left)
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #What do you see?
-
-        ![example html code](framework/img/workshop/see-index.png)
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #CODE! (Specifically HTML)
-
-        * We use browsers to see websites
-        * Browsers don’t understand English - but they do understand HTML!
-
-        **HTML is written in tags.**
-
-        Tags usually come in pairs — an opening tag and a closing tag — to wrap the content. Note the closing tag has a forward slash (`/`).
-
-        ```html
-          <tag> opening tag --- closing tag </tag>
-        ```
-
-        HTML tags describe the content inside of them to the web browser.
-
-        ```html
-          <h1>This tag describes a heading</h1>
-          <p>This tag is for paragraphs.</p>
-        ```
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
         #Challenge
 
         We can customize elements by adding or changing their attributes.
@@ -322,29 +267,6 @@
       </script>
     </section>
 
-<!--
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Assets
-
-        1. Upload images to the "assets" folder
-        <br>![add asset dropdown](framework/img/workshop/add-asset.png)
-
-        **Finding Background Images**
-
-        When uploading background images, make sure that they have a 2:1 aspect ratio. Search for '360 images' or see this <a href="https://www.flickr.com/groups/equirectangular/">360° image library on Flickr</a>. Save an image by clicking on the image, then the Download icon (bottom, right).
-
-        ![download icon](framework/img/workshop/flickr-save.png)
-
-        *Note: We can also capture 360 images using apps like <a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops&hl=en">Cardboard Camera</a>*
-
-        **Finding Textures**
-
-        We can add textures to objects, too! Check out this <a href="https://www.flickr.com/groups/freetextures/">free texture library on Flickr</a> for more options. Save an image using the same steps as above.
-
-      </script>
-    </section>-->
-
     <section class="slide" data-markdown>
       <script type="text/template">
         # Building our virtual world
@@ -352,8 +274,8 @@
         <strong>We'll go through the following steps together:</strong>
 
         1. Changing the background image
-        1. Adding more 3D shapes
         1. Adding textures
+        1. Adding more 3D shapes
         1. If time: Adding animation
         1. Saving and sharing projects
       </script>
@@ -381,7 +303,7 @@
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        # Step 2: Change the Background Image
+        # Step 1: Change the Background Image
 
         1. Locate your image in the assets folder and copy the image URL <br> ![copy link button](framework/img/workshop/copy-img-url.png)
         1. In the index, replace the background URL with your new image URL
@@ -399,6 +321,31 @@
             <a-sky src="#background"></a-sky>
             <!-- ... -->
           </a-scene>
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Step 2: Add Textures
+
+        1. Copy the image URL (click on image > “Copy Url”) (same as “Step 2”)
+        1. In the index, replace the ‘concrete’ URL with your new image URL
+        1. Update the `<!--comment-->` above the `<img>` with information on where your image was taken from.
+        1. You may want to update the name, as well - from ‘concrete’ to whichever word describes your new texture. <strong>Be sure to update the name in both places</strong>: in the `<img>` element and the 3D shape you are applying the texture to.
+        1. If adding textures to new shapes, you will need to add a src to that shape (see example below)
+
+
+        ```html
+        <a-scene>
+          <a-assets>
+            <img id="concrete" src="https://cdn.glitch.com/link-to-new-image"/>
+          </a-assets>
+            <a-sphere src="#concrete" position="0 2 -3" radius="0.5" shadow></a-sphere>
+
+            <!-- ... -->
+        </a-scene>
         ```
 
       </script>
@@ -430,49 +377,22 @@
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        # Step 4: Add Textures
+        # STRETCH GOAL: Adding Animation
 
-        1. Copy the image URL (click on image > “Copy Url”) (same as “Step 2”)
-        1. In the index, replace the ‘concrete’ URL with your new image URL
-        1. Update the `<!--comment-->` above the `<img>` with information on where your image was taken from.
-        1. You may want to update the name, as well - from ‘concrete’ to whichever word describes your new texture. <strong>Be sure to update the name in both places</strong>: in the `<img>` element and the 3D shape you are applying the texture to.
-        1. If adding textures to new shapes, you will need to add a src to that shape (see example below)
-
+        We can use the `animation` attribute to animate entities within our scene. Add it inside of the object you would like to animate.
 
         ```html
-        <a-scene>
-          <a-assets>
-            <img id="concrete" src="https://cdn.glitch.com/link-to-new-image"/>
-          </a-assets>
-            <a-sphere src="#concrete" position="0 2 -3" radius="0.5" shadow></a-sphere>
-
-            <!-- ... -->
-        </a-scene>
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow animation="property: position; to: -1 1.5 -3; dir: alternate; dur: 2000; easing: linear; loop: true;"></a-box>
         ```
 
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # ADD-ON: Adding Animation
-
-        We can use the `<a-animation>` primitive to animate entities within our scene. Nest it within the entity you want to animate (e.g. between the `<a-box>` opening and `</a-box>` closing tag)
-
-        ```html
-        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow>
-          <a-animation attribute="position" to="-1 1.5 -3" direction="alternate" dur="2000"
-              repeat="indefinite"></a-animation>
-        </a-box>
-        ```
-
-        * **Attribute** specifies which part we are animating (e.g. position, rotation, scale.. even material.color!)
+        * **Property** specifies which part we are animating (e.g. position, rotation, scale.. even material.color!)
         * **To** is the value we are animating it to (e.g. 1 meter higher than the original position)
-        * **Direction** is the direction of the animation (between `from` and `to`)
+        * **Dir** is the direction of the animation (between `from` and `to`)
         * **Dur** is how long it takes (in milliseconds)
-        * **Repeat** is the amount of times this happens
+        * **Easing** indicates whether or not it speeds up/down
+        * **Loop** is the amount of times this happens (put a number here, or `true` to loop forever)
 
-        See the <a href="https://aframe.io/docs/0.8.0/core/animations.html">Animations documentation</a> for more options!
+        See the <a href="https://aframe.io/docs/0.9.0/components/animation.html">Animations documentation</a> for more options!
 
       </script>
     </section>
@@ -496,9 +416,9 @@
       <script type="text/template">
         # Instructions
 
-        Follow these steps to view your A-Frame scene using <a href="https://vr.google.com/cardboard/">Google Cardboard</a>:
+        Follow these steps to view your A-Frame scene using VR Viewers:
 
-        1. Rename your project <br> ![rename project top left](framework/img/workshop/rename-project.png)
+        1. Rename your project (if you haven't already done so) <br> ![rename project top left](framework/img/workshop/rename-project.png)
         1. Open up a browser and go to your project's URL (same as 'Show Live') <br> ![project link](framework/img/workshop/final-project.png)
         1. Click on the Google Cardboard icon <br> ![viewer icon bottom right](framework/img/workshop/viewer-mode.png)
         1. Place your mobile device in the viewer and enjoy!
@@ -513,12 +433,25 @@
       </script>
     </section>
 
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Optional: Sign in to save
+
+        1. With your Glitch project open, select **Sign in with email**
+        1. You will need to go to your inbox and click on the "sign in" button
+
+        ![Sign in with email](framework/img/workshop/glitch-signin-with-email.png)
+        ![Verification email](framework/img/workshop/glitch-verification.png)
+      </script>
+    </section>
+
     <main>
       <section class="slide" data-toc data-markdown>
         <script type="text/template">
           # Today I Learned...
 
           <p><strong>I can</strong> build and experience VR in my browser</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> customize my virtual world with backgrounds and textures</p><!-- .element: class="delayed" -->
           <p><strong>I can</strong> use HTML to create 3D objects like boxes and spheres</p><!-- .element: class="delayed" -->
           <p><strong>I can</strong> add animation to my project</p><!-- .element: class="delayed" -->
           <p><strong>I can</strong> use A-Frame to <strong>KEEP CODING!</p><!-- .element: class="delayed" -->
@@ -531,7 +464,7 @@
     <section class="slide last">
       <h1>Thank you!</h1>
       <h2 class="heading-bg">
-        <span>Envisioning Canada<br> in VR</span>
+        <span>VR with A-Frame</span>
       </h2>
 
       <ul>
